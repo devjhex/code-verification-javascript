@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Code Verification</title>
+
+</head>
+<body class="md:w-screen md:h-screen flex items-center justify-center">
+    <main>
+        <section class="max-w-[700px] mx-auto md:bg-slate-200 rounded-[1.5rem] p-2 lg:p-8">
+            <div class="mt-4 ml-4">
+                <button class="p-2 rounded-[.5rem] duration-[.5s] hover:bg-slate-300">
+                    <img src="./back.svg" alt="back">
+                </button>
+            </div>
+
+         <div class="w-10/12 mx-auto text-center">
+            <h1 class="text-[2.4rem] font-[600] leading-[3rem] mt-[3rem] ">Enter Verification code</h1>
+
+            <div class="mt-[1.25rem]">
+                <p>Enter code that we have sent to your email your...@domain.com</p>
+            </div>
+
+            <div class="mt-4 flex items-center justify-center gap-[1rem] ">
+                    <input type="number" class=" w-[4.5rem] h-[3.2rem] rounded-[.5rem] bg-[#F3F8FF] outline-none text-[1.4rem] text-center focus:outline-blue-700">
+                    <input type="number" class=" w-[4.5rem] h-[3.2rem] rounded-[.5rem]  bg-[#F3F8FF] outline-none text-[1.4rem] text-center focus:outline-blue-700" disabled>
+                    <input type="number" class=" w-[4.5rem] h-[3.2rem] rounded-[.5rem]  bg-[#F3F8FF] outline-none text-[1.4rem] text-center focus:outline-blue-700" disabled>
+                    <input type="number" class=" w-[4.5rem] h-[3.2rem] rounded-[.5rem] bg-[#F3F8FF] outline-none text-[1.4rem] text-center focus:outline-blue-700" disabled>
+            </div>
+
+            <button class="w-full max-w-[500px] mx-auto bg-[#d9d9d9] p-4 flex items-cener justify-center mt-4 rounded-[.5rem] text-[#757575] text-[1rem] font-[500] duration-[.5s] hover:bg-blue-700 hover:text-white  uppercase verify">
+                verify code
+            </button>
+            <button class="w-1/2 max-w-[500px] mx-auto bg-none p-4 flex items-center justify-center mt-2 rounded-[.5rem] text-[#289BF6] duration-[.5s] hover:bg-blue-700 hover:text-white text-[1rem] font-[500]">
+                Resend Code
+            </button>
+         </div>
+        </section>
+    </main>
+
+    <script src="main.js" defer></script>
+</body>
+</html>
